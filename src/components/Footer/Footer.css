@@ -1,0 +1,16 @@
+:root{
+    --primary-color: #091e3d;
+    --secondary-color :#283f61;
+    --primary-font-color : #ffffff;
+}
+
+.footer{
+    height: 72px;
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30px;
+    align-items: center;
+    color: var(--primary-font-color);
+}
